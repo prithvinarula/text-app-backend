@@ -1,2 +1,7 @@
 uploads
 upload
+classification_models/GoogleNews-vectors-negative300.bin.gz
+classification_models/universal-sentence-encoder_4
+classification_app/__pycache__
+classification_app/api/__pycache__
+main/__pycache__
