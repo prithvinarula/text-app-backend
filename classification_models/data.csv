@@ -1,0 +1,500 @@
+text,tag
+Cash,Cash
+Petty Cash,Cash
+TD-operations 9798,Cash
+TD-Payroll 3859,Cash
+TD-Savings 9814,Cash
+Total Cash,Cash Total 1
+PayPal Bank,Cash
+Total Bank Accounts,Cash Total 2
+Accounts Receivable,A/R
+Accounts Receivable,A/R
+Accounts Receivable Trade,A/R
+NSF Checks,A/R
+Total Accounts Receivable,A/R Total
+Account Receivable - Officer,A/R
+Proshop Inventory,Inventory
+Supply Inventory,Inventory
+Total Inventory,Inventory Total
+Total Other Current Assets,Other Current Assets Total
+Total Current Assets,Total Current Assets
+Fixed Assets,Fixed Assests
+Computer,Machinery & Equipment
+Equipment,Machinery & Equipment
+Furniture,Furniture & Fixtures
+Leasehold Improvements,Capital Leases
+Total Fixed Assets,Total Fixed Assets
+Purchase of business,Other Non-Current Assets
+Total Other Assets,Other Non-Current Assets Total
+TOTAL ASSETS,Total Assets
+Accounts Payable,Accounts Payable-Trade
+Total Accounts Payable,Accounts Payable-Trade Total
+Amex 7003,Lines of Credit
+Citi 9333,Lines of Credit
+Total Credit Cards,Lines of Credit Total
+Accrued Payroll,Other Current Liabilities
+Banknorth Line of Credit,Other Current Liabilities
+Payroll Tax Payable,Other Current Liabilities
+Total Other Current Liabilities,Other Current Liabilities Total
+Total Current Liabilities,Total Current Liabilities
+Total Liabilities,Total Liabilities
+Opening Bal Equity,Capital Stock
+Owner Distribution,Paid In Capital
+Qualified Dividends,Paid In Capital
+Retained Earnings,Retained Earnings
+Net Income,Paid In Capital
+Total Equity,Total Equity
+TOTAL LIABILITIES AND EQUITY,TOTAL LIABILITIES AND EQUITY
+Cash and cash equivalents,Cash
+Land,Land
+Equipment,Machinery & Equipment
+c,Net Intangible Assets
+Less: accumulated depreciation,Accumulated Deprec (-)
+Current installments on notes payable,CPLTD + CP Capital Leases
+"Notes payable, net of current portion",Long Term Debt - Bank
+Partners’ capital: Partner capital,Retained Earnings
+Cash,Cash
+"Accounts Receivable, Net of Allowance for Doubtful Accounts",A/R
+Inventory,Inventory
+Prepaid Expenses,Prepaids/Deferreds
+Current Portion of Notes Receivable,Long Term A/R & N/R
+Net Fixed Assets,Total Fixed Assets - Net
+Other Assets Parts Inventory,Other Current Assets
+Gift Cards,Other Non-Current Assets
+"Notes Receivable, Net of Current Portion",Long Term A/R & N/R
+Accounts Payable,Accounts Payable-Trade
+Accrued Wages and Benefits,Accrued Expenses
+Accrued Expenses,Accrued Expenses
+Contract Liabilities,Other Current Liabilities
+Line of Credit,Lines of Credit
+Current Portion of Notes Payable,CPLTD + CP Capital Leases
+"Lonq-Term Liabilities
+Notes Payable - Net of Current Portion",Long Term Debt - Bank
+Paycheck Protection Program (PPP) Loan,Long Term Debt - Bank
+Debt Issuance Costs - Net of Amortization,Long Term Debt - Bank
+Members' Equity,Retained Earnings
+Mortgage,Cash
+"Other Current Assets
+Due from Shareholder",Employee Advances / Related Party Receivables
+N/R - CSE LLC,Employee Advances / Related Party Receivables
+Fixed Assets 141 · Land,Land
+"Improvements
+Improvements - Laser Tag",Buildings and other depreciable assets
+Improvements - Other,Buildings and other depreciable assets
+Buildings & Structures 14403 · Buildings-Fastrack,Buildings and other depreciable assets
+Buildings-Food Service,Buildings and other depreciable assets
+Buildings-Roller Skating,Buildings and other depreciable assets
+Buildings-Grand Prix,Buildings and other depreciable assets
+Buildings-Mini Golf,Buildings and other depreciable assets
+Buildings-Super Slick,Buildings and other depreciable assets
+Buildings-Pavillion,Buildings and other depreciable assets
+Buildings & Structures - Other,Buildings and other depreciable assets
+Furniture & Fixtures,Furniture & Fixtures
+Equipment-Arcade,Machinery & Equipment
+Equipment-Lazer Tag,Machinery & Equipment
+Equipment-Fastrack,Machinery & Equipment
+Equipment-Food Service,Machinery & Equipment
+Equipment-Roller Skating,Machinery & Equipment
+Equipment-Grand Prix,Machinery & Equipment
+Equipment-Mini Golf,Machinery & Equipment
+Equipment-Batting Cages,Machinery & Equipment
+Equipment-Rookie Track,Machinery & Equipment
+Equipment-Super Slick,Machinery & Equipment
+Equipment-Barn,Machinery & Equipment
+Equipment - Other,Machinery & Equipment
+Computer Equipment,Machinery & Equipment
+Telephone Systems,Machinery & Equipment
+Accumulated Depreciation,Accumulated Deprec (-)
+Total Fixed Assets,Total Fixed Assets - Net
+Total Other Assets,Net Intangible Assets
+Accounts Payable,Accounts Payable-Trade
+N/P Linkbank - Commer Take Down,CPLTD + CP Capital Leases
+Linkbank Mortgage 5645,Long Term Debt - Bank
+"Equity
+Opening Bal Equity",Retained Earnings
+Retained Earnings,Retained Earnings
+Issued Capital Stock,Capital Stock
+Treasury Stock,Treasury Stock (-)
+Net Income,Retained Earnings
+Rental Income (from LLC),Rental Income
+Landscape/Snow Removal 53101 · Landscaping,General & Admin Expenses
+Interest Expense,"Interest Expense (-) 
+(enter as a positive)"
+"Other Income
+91400 · Gain On Sale of Asset",Gain/(Loss) on Asset Sale
+Rental Income (from LLC),Rental Income
+Landscape/Snow Removal 53101 · Landscaping,General & Admin Expenses
+Interest Expense,"Interest Expense (-) 
+(enter as a positive)"
+"Other Income
+91400 · Gain On Sale of Asset",Gain/(Loss) on Asset Sale
+Sales-Arcade,Revenue
+Sales-Laser Tag,Revenue
+FasTrack,Revenue
+Grand Prix,Revenue
+Rookie Track,Revenue
+Sales-Mini Golf,Revenue
+Sales-Batting Cages,Revenue
+Beverage - Taxed,Revenue
+Water - Not Taxed,Revenue
+Food - Taxed,Revenue
+Candy - Not Taxed,Revenue
+Inhouse,Revenue
+Outside,Revenue
+Sales-Merchandise,Revenue
+Sales-Events & Spaces-CSE,Revenue
+VIP Room,Revenue
+Space Rental,Revenue
+Promotions,Revenue
+Player Card Discount,Revenue
+CC Online Conv Fee Rcvd,Revenue
+Advertising Income,Revenue
+Signage,Revenue
+Abarta Coca-Cola,Revenue
+Purchases-Arcade,Cost of Sales
+Game Cards/Chips,Cost of Sales
+Pop-It Extreme,Cost of Sales
+Photo Booth,Cost of Sales
+Rent - Property,Rent Expense
+Management,General & Admin Expenses
+Vehicle Lease,Rent Expense
+SIMPLE Expense,General & Admin Expenses
+Chargeback,General & Admin Expenses
+Total Utilities,General & Admin Expenses
+Total Repairs & Maintenance,General & Admin Expenses
+Total Landscape/Snow Removal,General & Admin Expenses
+Total Insurance,General & Admin Expenses
+Total Travel,General & Admin Expenses
+Total Payroll Taxes,General & Admin Expenses
+Other Sales Taxes,General & Admin Expenses
+TotalPermits & Licenses,General & Admin Expenses
+TotalSoftware,General & Admin Expenses
+Total Interest Expense,Interest Expense (-) (enter as a positive)
+Total Advertising & Promotion,General & Admin Expenses
+Total Accounting Expense,General & Admin Expenses
+Total Legal Expense,General & Admin Expenses
+Total Other Income,Other Income
+Other Expense: Depreciation Expense,Depreciation Expense
+Net Income,NET PROFIT
+LB Main,Cash
+LB Primary,Cash
+LB Payroll,Cash
+LB Rent,Cash
+Other Current Assets 102 · Safe,Other Current Assets
+Employee Advance,"Employee Advances /
+ Related Party Receivables"
+Inventory,Inventory
+Fixed Assets · Improvements,Buildings and other depreciable assets
+Furniture & Fixtures,Furniture & Fixtures
+Mercedes GLS450,Machinery & Equipment
+"Equipment, Arcade",Machinery & Equipment
+Laser Tag,Machinery & Equipment
+Food Service,Machinery & Equipment
+Roller Skating,Machinery & Equipment
+Grand Prix,Machinery & Equipment
+Mini Golf,Machinery & Equipment
+Rookie Track,Machinery & Equipment
+Technology,Machinery & Equipment
+Equipment - Other,Machinery & Equipment
+Expansion/Remodeling,Machinery & Equipment
+Computer Equipment,Machinery & Equipment
+Accumulated Depreciation,Accumulated Deprec (-)
+Total Other Assets,Net Intangible Assets
+Accounts Payable,Accounts Payable-Trade
+Credit Cards: Spark Capital One 0549,Lines of Credit
+Plum Amex,Lines of Credit
+Sam's Club,Lines of Credit
+Target Red Card,Lines of Credit
+Lowe's,Lines of Credit
+"Other Current Liabilities
+207 · Payroll & Impound Clearing",
+Accrued Payroll Tax - LST Tax,Accrued Expenses
+Accrued Payroll Tax - Federal,Accrued Expenses
+Accrued Payroll Tax - State,Accrued Expenses
+Accrued Payroll Tax - Local,Accrued Expenses
+Accrued Unemployment Tax State,Accrued Expenses
+Accrued Unemploy Tax Federal,Accrued Expenses
+Gift Cards,Other Current Liabilities
+Party Deposit,Other Current Liabilities
+Deferred Revenue,Other Current Liabilities
+"Security Deposits - Due To
+· Security Deposits - Barn",Other Current Liabilities
+Total · Security Deposits - Due To,Other Current Liabilities
+Gratuity,Other Current Liabilities
+Linkbank - Line of Credit 5299,Lines of Credit
+Use Tax,Other Current Liabilities
+Sales Tax Payable,Accrued Expenses
+Amusement Tax,Other Current Liabilities
+Long Term Liabilities 245 · N/P PIDA Loan,Long Term Debt - Bank
+N/P Lydell,Long Term Debt - Bank
+John Deere Tractor - 1/28/24,Long Term Debt - Bank
+"Arcade Liabilities
+260.5 · Storm - 9/24/20",Long Term Debt - Bank
+Monopoly Roll N Go #1- 11/4/20,Long Term Debt - Bank
+Monopoly w/marquee #2 12/17/20,Long Term Debt - Bank
+King Kong Scull Island,Long Term Debt - Bank
+Hot Wheels 04/30/21,Long Term Debt - Bank
+Nitro Trucks (2) 03/26/21,Long Term Debt - Bank
+Minecraft 07/01/21,Long Term Debt - Bank
+Betson Agmt 26164 - Power Drop,Long Term Debt - Bank
+Betson Agmt 26165 - Asphalt 9,Long Term Debt - Bank
+Betson Agmt 26262 - Hungry Hipp,Long Term Debt - Bank
+Betson Agmt 263 - Dead Pool,Long Term Debt - Bank
+Betson Agmt - 26234 Rock the Ri,Long Term Debt - Bank
+Citizens Bank - Mercedes,Long Term Debt - Bank
+"Equity
+ · Retained Earnings",Retained Earnings
+Additional Paid In Capital,Paid In Capital
+Shareholder Distributions,Retained Earnings
+Net Income,Retained Earnings
+Other Income,Other income
+Interest Income,Interest Income
+Rent - AL,Revenue
+Rent - 55+ Housing,Revenue
+Rent Discount,Revenue
+Wages-Enviro Services (Maintenance),Salaries/Wages Expense
+Payroll Taxes - Enviro Services,General & Admin Expenses
+HVAC Repairs,General & Admin Expenses
+Interior Redecorate,General & Admin Expenses
+Major Appliance,General & Admin Expenses
+Exterminating,General & Admin Expenses
+Snow Removal,General & Admin Expenses
+Lawn Care & Landscaping,General & Admin Expenses
+Maintenance Supplies,General & Admin Expenses
+Maintenance - General Repairs,General & Admin Expenses
+Maintenance - Service Contracts,General & Admin Expenses
+Sprinkler/Backflow Testing,General & Admin Expenses
+Furniture and Equipment Expense,General & Admin Expenses
+Equipment Maintenance,General & Admin Expenses
+Equipment Rental,Rent/Lease Expense
+Housekeeping Supplies,General & Admin Expenses
+Fire and Security Monitoring,General & Admin Expenses
+Water and Sewer,General & Admin Expenses
+Gas,General & Admin Expenses
+Electric,General & Admin Expenses
+Trash Removal,General & Admin Expenses
+Internet Expense,General & Admin Expenses
+Cable Service,General & Admin Expenses
+Food Expense,General & Admin Expenses
+Beer - Liquor,General & Admin Expenses
+Supplies - Kitchen,General & Admin Expenses
+Medical Supplies,General & Admin Expenses
+Recreational Activity Supplies,General & Admin Expenses
+Danbury-In-House Entertainment,General & Admin Expenses
+Flowers,General & Admin Expenses
+Activities Consultant,General & Admin Expenses
+Wages - Admin,Salaries/Wages Expense
+Payroll Taxes - Admin,General & Admin Expenses
+Wages - Marketing,Salaries/Wages Expense
+Payroll Taxes - Marketing,General & Admin Expenses
+Advertising,General & Admin Expenses
+Promotional Events & Supplies,General & Admin Expenses
+Referrals,General & Admin Expenses
+Auto Expense,General & Admin Expenses
+Mileage Reimbursement,General & Admin Expenses
+Uniforms,General & Admin Expenses
+Pre-Employment Expense,General & Admin Expenses
+Employee Recruitment,General & Admin Expenses
+Education/Seminars Expense,General & Admin Expenses
+Special Meetings and Lunches,General & Admin Expenses
+Staff Awards,General & Admin Expenses
+Gift Cards,General & Admin Expenses
+Dues/Subscriptions,General & Admin Expenses
+Licenses/Permits,General & Admin Expenses
+Legal and Professional Fees,General & Admin Expenses
+Accounting Fees,General & Admin Expenses
+IT Expense,General & Admin Expenses
+Office Expense,General & Admin Expenses
+Office Equipment,General & Admin Expenses
+Cell Phones,General & Admin Expenses
+Supplies - Office,General & Admin Expenses
+Holiday Decorations,General & Admin Expenses
+Postage,General & Admin Expenses
+Bank Charges/Fees,General & Admin Expenses
+Miscellaneous Expense,General & Admin Expenses
+Payroll Fees,General & Admin Expenses
+401(K) Employer Match,General & Admin Expenses
+Emp W/H - Medical,General & Admin Expenses
+Emp W/H - All Other Benefits,General & Admin Expenses
+Insurance,General & Admin Expenses
+Premium - Medical,General & Admin Expenses
+Premium - All Other Benefits,General & Admin Expenses
+Commercial Activity Tax,General & Admin Expenses
+Workers Compensation,General & Admin Expenses
+Management Fee,General & Admin Expenses
+Mortgage - Interest,Interest Expense
+Note - Interest,Interest Expense
+Depreciation Expense,Depreciation Expense
+Amortization Expense,Amortization Expense
+Petty Cash,Cash
+TD-operations 9798,Cash
+TD-Payroll 3859,Cash
+TD-Savings 9814,Cash
+PayPal Bank,Cash
+"Accounts Receivable
+Accounts Receivable",A/R
+Accounts Receivable Trade,A/R
+NSF Checks,A/R
+"Other Current Assets Account Receivable - Officer","Employee Advances / Related Party Receivables"
+Inventory,Inventory
+Proshop Inventory,Inventory
+Supply Inventory,Other Current Assets
+"Fixed Assets
+Fixed Assets","Buildings and other depreciable 
+assets"
+Computer,Machinery & Equipment
+Equipment,Machinery & Equipment
+Furniture,Furniture & Fixtures
+Leasehold Improvements,"Buildings and other depreciable 
+assets"
+"Other Assets
+Purchase of business",Net Intangible Assets
+Accounts Payable,"Accounts Payable-
+Trade"
+Amex 7003,Lines of Credit
+Citi 9333,Lines of Credit
+"Other Current Liabilities
+Accrued Payroll",Accrued Expenses
+Banknorth Line of Credit,Lines of Credit
+Payroll Tax Payable,Accrued Expenses
+"Equity
+Opening Bal Equity",Retained Earnings
+Owner Distribution,Retained Earnings/Actual Distributions
+Qualified Dividends,Retained Earnings/Actual Distributions
+Retained Earnings,Retained Earnings
+Net Income,Retained Earnings
+"Income
+Refunds",Revenue
+Revenue,Revenue
+Cost of Goods Sold,Cost of Sales
+"Expenses
+Advertising Marketing","General & Admin 
+Expenses"
+Automobile Expense,"General & Admin 
+Expenses"
+Auto Repair,"General & Admin 
+Expenses"
+Gas & Oil,"General & Admin 
+Expenses"
+"Bank/ Credit & Collection Fees
+Bank Service Charges","General & Admin 
+Expenses"
+Credit Card Fees,"General & Admin 
+Expenses"
+"Birthday Parties
+Party Supplies","General & Admin 
+Expenses"
+"Competitions
+Competition Fee's","General & Admin 
+Expenses"
+"Continuing Education
+Professional Development","General & Admin 
+Expenses"
+Contributions,"General & Admin 
+Expenses"
+Dues and Subscriptions,"General & Admin 
+Expenses"
+Licenses and Permits,"General & Admin 
+Expenses"
+Memberships,"General & Admin 
+Expenses"
+Software,"General & Admin 
+Expenses"
+"Employee Benefits
+Employee Recognition","General & Admin 
+Expenses"
+Equipment Rental,Rent/Lease Expense
+Insurance,"General & Admin 
+Expenses"
+Auto Insurance,"General & Admin 
+Expenses"
+Worker's Compensation,"General & Admin 
+Expenses"
+Office/Administrative,"General & Admin 
+Expenses"
+"Outside Labor & Services
+Cleaning & Maintenance","General & Admin 
+Expenses"
+"Payroll Expense
+Payroll Processing Fee","Salaries/Wages 
+Expense"
+Payroll Taxes,"Salaries/Wages 
+Expense"
+Wages,"Salaries/Wages 
+Expense"
+Postage and Delivery,"General & Admin 
+Expenses"
+"Professional Fees
+Consulting","General & Admin 
+Expenses"
+Rent,Rent Expense
+"Repairs
+Building Repairs","General & Admin 
+Expenses"
+"Supplies
+Gym Supplies","General & Admin 
+Expenses"
+Operational Supplies,"General & Admin 
+Expenses"
+"Taxes
+Excise Tas","General & Admin 
+Expenses"
+Property Tax,"General & Admin 
+Expenses"
+"Travel & Entertainment
+Entertainment","General & Admin 
+Expenses"
+Meals - 50%,"General & Admin 
+Expenses"
+Travel,"General & Admin 
+Expenses"
+Travel Meals - 100%,"General & Admin 
+Expenses"
+"Utilities
+Electric","General & Admin 
+Expenses"
+Gas,"General & Admin 
+Expenses"
+Phone & Internet,"General & Admin 
+Expenses"
+"Other Income Other Income
+Interest Income",Interest Income
+Undergraduate Tuition,Revenue
+Course Fees (offset of course expenses),Revenue
+Fees,Revenue
+Graduate Tuition,Revenue
+Room and Board,Revenue
+Endowment Income,Revenue
+Annual Operating Gifts,Revenue
+Release of Prior Year Donor Restrictions,Revenue
+"Federal, State and Private Grants",Revenue
+American Rescue Plan,Revenue
+Support from Quasi-Endowment,Revenue
+Other Auxiliary Revenue,Revenue
+Miscellaneous Income,Revenue
+Financial Aid,Revenue
+Instructional,General & Admin Expenses
+Course Fee Expense (offset revenue),General & Admin Expenses
+Academic Support,General & Admin Expenses
+Planned Restricted Spending,General & Admin Expenses
+Development,General & Admin Expenses
+Research and Public Service,General & Admin Expenses
+Student Services,General & Admin Expenses
+Institutional Support,General & Admin Expenses
+Operation and Maintenance of Plant,General & Admin Expenses
+Auxiliary Enterprises,General & Admin Expenses
+Professional Development,General & Admin Expenses
+Debt Service - Interest only,"Interest Expense (-) (enter as a 
+positive)"
+Faculty Salaries,Salaries/Wages Expense
+Administrative Salaries - Exempt,Salaries/Wages Expense
+Administrative Salaries - Non-Exempt,Salaries/Wages Expense
+Union Wages,Salaries/Wages Expense
+Student Wages,Salaries/Wages Expense
+Medical Benefits,General & Admin Expenses
+Other Fringe Benefits,General & Admin Expenses
+Utilities,General & Admin Expenses
+COVID Expenses,General & Admin Expenses
+"Contingency Fund
+Identified Expense Reductions",General & Admin Expenses
+Depreciation,Depreciation Expense
