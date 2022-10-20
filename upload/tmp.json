@@ -1,0 +1,17 @@
+{'AuthErrorNmb': '0', 'AuthErrorText': 'Login Successful.', 'Synopsis': ['Synopsis of Web Service (XML) processing, SBA TEST DATABASE:',
+        "The file was of acceptable size and type, so it was accepted by the SBA's server.",
+        "LoanAppETranSeqNmb :540338. It was saved to the SBA's database as a transaction history.", 'It "deserialized" correctly, which allowed its 1 loan application(s) to be processed.', 'Processing application 1 of 1 in the file.', 'Passed "presave validation".', 'Saved to SBA test database as application number 10788251.',
+        "Most recent credit score on file for this app, if any: ''. Primary Borrower is a person, so no DUNS number."
+    ], '_trace': ['INIT', 'trctx', 'Originate3', 'Login WS', 'got roles, set unm and pwd if roles exist', 'established environment', 'got roles', 'not sacx', 'trying to save XML', 'chkg dupes', 'saved XML', 'bTAFF 7.2', 'tab', 'exists', 'col', 'exists', '1.0', 'succeeded', 'bTAFF 7.2', 'tab', 'exists', 'col', 'exists', 'version 7.2', 'no change', 'new int', 'Len is 1',
+        "hqo '' ign '2002' rlc 'CAI,ITR,7AG,7EW,FPL,PLP,PLW,CAT,SBL,CAR,CRL' fws 'NO' sow '991,992,993,994,995,996,997,998,999' uop 'Yes'", 'bVA', 'aug nosp', 'end init 1658', 'before processing contents', 'end of AppLoop', 'final save of processing result', 'end request 2986'
+    ], 'App': [
+        {'LoanAppNmb': '10788251', 'Results': {'LoanAppNm': 'GOLAS', 'LoanAppRqstAmt': '$25,
+                300.00', 'LoanAppPrtLoanNmb': '', 'LoanAppPrtAppNmb': '', 'LoanAppRecvDt': '10/03/2022 02: 41: 29', 'LoanAppEtranEmailAdr': 'sbaetran_testdatasetup@thesummitgrp.com', 'LoanAppAppvDt': '', 'LoanAppSBAAppvAmt': '', 'LoanNmb': '', 'LoanGntyFeeAmt': '', 'LoanGntyFeeExplainTxt': '', 'LoanGntyPercent': '100', 'LoanAppFundDt': '', 'LoanAppStatCd': 'AP', 'BusDUNSNmb': '', 'LiquidCreditScore': ''
+            }, 'Errors': ['Errors occurred in application 1 of 1:', 'Unable to fund at this time.'
+            ], 'Warnings': ['Warnings for application 1 of 1:', '00001. For Project, the full 9 digit zip code is mandatory for Project Address. (Zip Code + 4) (4055)', '00003. For Borrower 1, Tax ID 1021684530, the full 9 digit zip code is mandatory for Physical Address. (Zip Code + 4) (4054)', '00002. For 1021684530 1, LoanPerTbl.TaxId 1021684530, PerLastNm is Required (342)'
+            ], '_trace': ['App 1', 's2ps Test(y4)', 'PRESAVE', 'modified ETranStruct', 'got prt addr', 'got agreements',
+                "PMC 'DPH' Typ 'D' Prgm 'H' Uw 'SBA' Auth 'NO'", 'Variables.SpcPurpsLoanCd: DNCE', 'end presave 815', 'begtran', 'SAVE', 'NeedStatCdToLookupDUNS No', 'NeedStatCdToCreditScore No', 'ap', 'Variables.ESRILoanAppProjZip4Cd: ', 'app', 'recv', 'userType: P', 'end save 277', 'VALIDATE', 'ValApp', 'err 0', 'warn 3', 'passed validation', 'end validate 95', 'comtran', 'saving processing result', 'SUBMODS', 'end submods 0', 'SUPPLEMENT', 'supplement already done', 'end supplement 0', 'ROUTE', 'route already done', 'end route 0', 'FUND', 'DetDDP', 'ddp No', 'AP', 'LastSecAP', 'AP-ish', 'fund prcs', 'sp 4', 'rbAP', 'end fund 9', 'uwad NO sfe No', 'end of App 1', 'end ETranStruct 1323'
+            ]
+        }
+    ]
+}
