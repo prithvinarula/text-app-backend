@@ -446,7 +446,7 @@ def ind_e_nlp(to_be_classified):
         return infoFromJson
 
 
-def tfidf_model(to_be_classified):
+def tfidf_models(to_be_classified):
     for line in to_be_classified:
         l_x = [i.strip() for i in line.replace('"', "").split(",")]
         result={}
