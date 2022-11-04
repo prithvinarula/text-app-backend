@@ -12,7 +12,7 @@ from django.shortcuts import render
 from dotenv import load_dotenv
 import os
 import spacy
-from ..mlmodel import cengage, horcrux, bus_entity_model, ind_entity_model, bus_e_nlp, ind_e_nlp, blank
+from ..mlmodel import cengage, horcrux, bus_entity_model, ind_entity_model, bus_e_nlp, ind_e_nlp, blank,tfidf_model
 
 from django.http import HttpResponse, JsonResponse
 
@@ -90,6 +90,14 @@ def ind_e_nlp_api(request):
         return render(request, "base.html", {"result": result})
 
 
+def tfidf_model_api(request):
+    if request.method == "POST":
+        to_be_classified = request.POST["to_be_classified"]
+        to_be_classified = [to_be_classified]
+        infoFromJson = tfidf_model(to_be_classified)
+        result = json2html.convert(json=infoFromJson)
+        return render(request, "base.html", {"result": result})   
+
 def json_transformer(input, model, output_arr):
     print("Transformer")
     print(input)
@@ -154,5 +162,8 @@ def consolidated_api(request):
 
     nlp_ind_response = ind_e_nlp(to_be_classified)
     result = json_transformer(nlp_ind_response, "NLP_IND", result)
+
+    tfidf_model_response = tfidf_model(to_be_classified)
+    result = json_transformer(tfidf_model_response, "tfidf_model", result)
 
     return JsonResponse({"data": result}, safe=False)

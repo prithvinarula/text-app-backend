@@ -11,5 +11,6 @@ urlpatterns = [
     path("ext_individual/", views.ind_entity_api, name="ext_individual"),
     path("ext_b_nlp/", views.bus_e_nlp_api, name="ext_b_nlp"),
     path("ext_i_nlp/", views.ind_e_nlp_api, name="ext_i_nlp"),
+    path("tfidf_model/", views.tfidf_model_api, name="tfidf_model"),
     path("consolidated_api", views.consolidated_api, name="consolidated_api"),
 ]

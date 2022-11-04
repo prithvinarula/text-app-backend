@@ -42,12 +42,12 @@ BAD_SYMBOLS_RE = re.compile("[^0-9a-z #+_]")
 STOPWORDS = set(stopwords.words("english"))
 
 load_dotenv()
-
-
-model = hub.load(os.path.join(path_to_test_file, "universal-sentence-encoder_4"))
+# path_to_files=os.getenv('path_to_files')
+# path_to_file = os.chdir(path_to_files)
+# model = hub.load(os.path.join(path_to_files, "universal-sentence-encoder_4"))
 # model = hub.load("https://tfhub.dev/google/universal-sentence-encoder/4?tf-hub-format=compressed")
 
-sample_data = pd.read_excel(os.path.join(path_to_test_file, "testdata1.xlsx"), sheet_name="Sheet1")
+sample_data = pd.read_excel(os.path.join(path_to_test_file, "testdatanew.xlsx"), sheet_name="Sheet1")
 Individual_Entity = pd.read_excel(
     os.path.join(path_to_test_file, "Scrubbing Data Classification_v0.2.xlsx"), sheet_name="Individual Entity"
 )
@@ -55,7 +55,10 @@ Business_Entity = pd.read_excel(
     os.path.join(path_to_test_file, "Scrubbing Data Classification_v0.2.xlsx"), sheet_name="Business Entity"
 )
 
+trainDF=sample_data
 
+SUBCLASS = trainDF['SubClass'].tolist()
+LineItems = trainDF['LineItem'].tolist()
 # trainDF = sample_data
 
 # LineItems = trainDF["LineItem"].tolist()
@@ -67,6 +70,25 @@ nlp = spacy.load("en_core_web_lg")
 # Business_Entity_embeddings = model(Business_Entity_cls)
 # Individual_Entity_embeddings = model(Individual_Entity_cls)
 # line_embeddings = model(LineItems)
+
+def cosine_distance_countvectorizer_method(s1, s2):
+    
+    # sentences to list
+    allsentences = [s1 , s2]
+    
+    # packages
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from scipy.spatial import distance
+    
+    # text to vector
+    vectorizer = TfidfVectorizer()
+    all_sentences_to_vector = vectorizer.fit_transform(allsentences)
+    text_to_vector_v1 = all_sentences_to_vector.toarray()[0].tolist()
+    text_to_vector_v2 = all_sentences_to_vector.toarray()[1].tolist()
+    
+    # distance of similarity
+    cosine = distance.cosine(text_to_vector_v1, text_to_vector_v2)
+    return round((1-cosine),2)
 
 
 def clean_text(text):
@@ -89,7 +111,7 @@ def clean_text(text):
 df["text"] = df["text"].apply(clean_text)
 
 wv = gensim.models.KeyedVectors.load_word2vec_format(
-    os.path.join(path_to_test_file, "GoogleNews-vectors-negative300.bin.gz"),
+    os.path.join(path_to_test_file, "GoogleNews-vectors-negative300.bin"),
     binary=True,
 )
 wv.init_sims(replace=True)
@@ -422,3 +444,30 @@ def ind_e_nlp(to_be_classified):
             s1 = json.dumps(result)
             infoFromJson = json.loads(s1)
         return infoFromJson
+
+
+def tfidf_model(to_be_classified):
+    for line in to_be_classified:
+        l_x = [i.strip() for i in line.replace('"', "").split(",")]
+        result={}
+        for line in l_x:
+            line_token=nlp(line)
+            Similarity=[]
+            response=[]
+            maximum=float('-inf')
+            for i in sample_data.iterrows():
+                sim=cosine_distance_countvectorizer_method(line_token.text,i[1]['LineItem'])
+                if sim>maximum:
+                    maximum=sim
+                    re=i[1]['SubClass']
+            Similarity.append(maximum)
+            response.append(re)
+            sim_per=[f'{i*100:.2f}%' for i in Similarity]
+            res = {response[i]: sim_per[i] for i in range(len(response))}
+            dict1={line:res}
+            for k in dict1.keys():
+                dict2={k:res}
+                result.update(dict2)
+                s1=json.dumps(result)
+                infoFromJson=json.loads(s1)
+    return infoFromJson
